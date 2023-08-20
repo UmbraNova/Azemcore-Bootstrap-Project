@@ -31,10 +31,6 @@ body {
 .navbar .btn[type="submit"]:hover {
   color: #000000;
 }
-
-.form-control {
-  width: 333px;
-}
 /* ===== navbar END */
 
 
