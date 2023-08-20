@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Azemcore Website Project</title>
+
+  <link rel="icon" type="image/x-icon" href="./assets/images/AAAZEMCORE-favicon.png">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- nav START -->
+  <nav class="navbar navbar-expand-lg bg-body-secondary-subtle">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="./assets/images/AAAZEMCORE-8-9-2023.png" width="180px" alt="logo"></a>
+      
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Develop Websites</a></li>
+              <li><a class="dropdown-item" href="#">Software Projects</a></li>
+              <li><a class="dropdown-item" href="#">Design Elements</a></li>
+              <li><a class="dropdown-item" href="#">SEO Optimization</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Contact Now</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="One elephant..." aria-label="Search">
+          <button class="btn" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- nav END -->
+
+  <!-- myCarousel START -->
+  <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+    </div>
+    <div class="carousel-inner">
+
+      <div class="carousel-item active"> <!-- First slide -->
+        <img class="bd-placeholder-img" width="100%" height="100%" src="./assets/images/redacted-pink-blue - Copy.jpg">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1 class="heading-short-description"><span class="main-heading-title">AZEMCORE</span> Creative Systems</h1>
+            <p class="heading-short-description opacity-80">Experience the highest quality of our services.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Contact us today</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item"> <!-- Second slide -->
+        <img class="bd-placeholder-img" width="100%" height="100%" src="./assets/images/redacted (3).jpg">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1 class="heading-short-description"><span class="main-heading-title">AZEMCORE</span> Creative Systems</h1>
+            <p class="heading-short-description opacity-80">We build your website based on your needs.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item"> <!-- Third slide -->
+        <img class="bd-placeholder-img" width="100%" height="100%" src="./assets/images/redacted (1) - Copy - Copy.jpg">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1 class="heading-short-description"><span class="main-heading-title">AZEMCORE</span> Creative Systems</h1>
+            <p class="heading-short-description opacity-80">Here you can see our previous projects.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Our Projects</a></p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- myCarousel END -->
+
+  
+  
+  
+  <!-- About Us Part 1 START -->
+  <div class="container marketing">
+
+    <div class="container px-4 py-5">
+      <h2 class="pb-2 border-bottom text-body-emphasis">About Us</h2>
+  
+      <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+        <div class="col d-flex flex-column align-items-center gap-2">
+          <h2 class="fw-bold text-body-emphasis">Design & Develop with joy</h2>
+          <p class="text-body-secondary lh-base text-center">Welcome to our website, where we are on a mission to provide exceptional Web Building services to customers in around the world. As a company, we believe that building a Website doesn't have to be stressful or complicated, and we are passionate about making the process as seamless and enjoyable as possible.</p>
+          <a href="#" class="btn btn-primary btn-lg">Contact Us</a>
+          <!-- <img style="background: none;" src="./assets/gifs/black-venom-3.gif" alt=""> -->
+          <img style="background: none;" src="./assets/gifs/opti-black-triangles.gif" alt="">
+        </div>
+  
+        <div class="col">
+          <div class="row row-cols-1 row-cols-sm-2 g-4">
+            <div class="col d-flex flex-column gap-2 align-items-center">
+              <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-dark bg-gradient fs-4 rounded-3">
+                <img src="./assets/svg/briefcase.svg" alt="icon" height="30">
+              </div>
+              <h4 class="fw-semibold mb-0 text-body-emphasis">Professional Team</h4>
+              <p class="text-body-secondary">Our team of professional movers are trained to prioritize efficiency, organization, and attention to detail. We understand that your clients are more than just clients - they are a reflection of your work, time, and experiences. That's why we take extra care to ensure that everything is planned and designed with the utmost care and attention.</p>
+            </div>
+
+            <div class="col d-flex flex-column gap-2 align-items-center">
+              <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-dark bg-gradient fs-4 rounded-3">
+                <img src="./assets/svg/globe.svg" alt="icon" height="30" class="dark">
+              </div>
+              <h4 class="fw-semibold mb-0 text-body-emphasis">Worldwide Trust</h4>
+              <p class="text-body-secondary">We offer a range of services to suit your individual needs, whether you're in need of a website locally or across the world. Our team can handle everything from planning and designing to development and administrating, so you can focus on your clients. And with our transparent pricing and no hidden fees, you can trust that you're getting a fair rate for our services.</p>
+            </div>
+  
+            <div class="col d-flex flex-column gap-2 align-items-center">
+              <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-dark bg-gradient fs-4 rounded-3">
+                <img src="./assets/svg/chat-square-heart.svg" alt="icon" height="30">
+              </div>
+              <h4 class="fw-semibold mb-0 text-body-emphasis">Personal Touch</h4>
+              <p class="text-body-secondary">At our core, we believe that making a website should be an exciting and positive experience, not a stressful one. By providing exceptional Web Development services, we hope to revolutionize the way people think about Websites and provide a better, more personalized experience for our customers. Contact us today to learn more about how we can help you with your next Website.</p>
+            </div>
+  
+            <div class="col d-flex flex-column gap-2 align-items-center">
+              <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-dark bg-gradient fs-4 rounded-3">
+                <img src="./assets/svg/diagram-3.svg" alt="icon" height="30" class="dark">
+              </div>
+              <h4 class="fw-semibold mb-0 text-body-emphasis">Design Technologies</h4>
+              <p class="text-body-secondary">In the process, we are designing and planning the project based on our client's input and preferences to make sure that everything is fast and clean. Build your Website using the best practices in the industry without compromises. The latest technologies in an efficient organization are our goal as a team.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About Us Part 1 END -->
+
+    <!-- About Us Part 2 START -->
+    <hr class="feature-divider">
+
+    <div class="row feature">
+      <div class="col-md-7">
+        <h2 class="feature-heading fw-normal lh-1">High-quality<span class="text-body-secondary"> team members</span></h2>
+        <p class="lead">A <span class="beBold">great team</span> of website developers, graphic designers, and marketing specialists. We excel as high-quality website builders. Our expertise in web development allows us to create exceptional digital experiences that resonate with our clients' visions. We blend <span class="beBold">advanced technology</span> with creative innovation to construct visually appealing and functional websites. Our commitment to excellence is evident in every project we undertake, as we prioritize precision, user-friendliness, and technical reliability. With us, you can trust in a partnership that delivers websites of the highest caliber, tailored to meet your unique needs.</p>
+      </div>
+      <div class="col-md-5">
+        <img class="bd-placeholder-img bd-placeholder-img-lg feature-image img-fluid mx-auto" width="500" height="500" src="./assets/images/t-azem-shirt.png" alt="a team member with azemcore on t-shirt"></img>
+      </div>
+    </div>
+    <hr class="feature-divider">
+
+    <div class="row feature">
+      <div class="col-md-7 order-md-2">
+        <h2 class="feature-heading fw-normal lh-1">Great team with<span class="text-body-secondary"> years of experience</span></h2>
+        <p class="lead">After years of working in the industry we realized that in any organization, the most important part is people and how well they understand each other. <span class="beBold">More communication</span> gives ideas on how to optimize, solve problems, and how to build a better day for the team and for the client. With many actual real-world completed projects behind us, we invite you to this journey with us.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img class="bd-placeholder-img bd-placeholder-img-lg feature-image img-fluid mx-auto" width="500" height="500" src="./assets/images/t-cumputer-guy.jpg" alt="a team member using a computer"></img>
+      </div>
+    </div>
+    <hr class="feature-divider">
+
+    <div class="row feature">
+      <div class="col-md-7">
+        <h2 class="feature-heading fw-normal lh-1">Committed to<span class="text-body-secondary"> Customer</span></h2>
+        <p class="lead">At Azemcore, client commitment drives everything we do. As a premier web development organization, we're dedicated to surpassing client expectations. With tailored strategies, our expert team crafts visually stunning, user-friendly websites that align with business goals. <span class="beBold">Open communication</span> and collaboration are paramount, keeping clients engaged at every step. Your success is our priority, and we're here to achieve digital excellence together.</p>
+      </div>
+      <div class="col-md-5">
+        <img class="bd-placeholder-img bd-placeholder-img-lg feature-image img-fluid mx-auto" width="500" height="500" src="./assets/images/t-books-blue.png" alt="notebook"></img>
+      </div>
+    </div>
+    <hr class="feature-divider">
+    <!-- About Us Part 2 END -->
+
+    <!-- container py-3 START -->
+    <div class="container py-3">
+      <header>
+        <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+          <h1 style="font-size: 2rem;" class="display-4 fw-normal text-body-secondary">Rates</h1>
+          <p class="fs-5 text-body-secondary">Quickly build an effective Website and focus on your vision, we handle everything else with our transparent pricing</p>
+        </div>
+      </header>
+      
+      <!-- sign-up-container (Rates) START -->
+      <div class="sign-up-container">
+        <!-- Pricing Tables START -->
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center h-50">
+          <div class="col">
+            <div class="card mb-4 rounded-0 shadow-sm pricing-col">
+              <div class="card-header py-3 pricing-card">
+                <h4 class="my-0 fw-normal text-light">Free</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">$0</h1>
+                <ul class="mt-5 mb-5 text-start">
+                  <p class="fs-5 text-body-secondary">Quickly get to know an estimated price for your design or needs</p>
+                  <li>Website consultation</li>
+                  <li>Domain verification</li>
+                  <li>Branding specialist</li>
+                  <li>Planning the basics</li>
+                  <li>Estimated project cost</li>
+                  <li>Email support</li>
+                  <li>Help center access</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-outline-warning mb-4">Get a Quote</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card mb-4 rounded-0 shadow-sm pricing-col">
+              <div class="card-header py-3 pricing-card">
+                <h4 class="my-0 fw-normal text-light">Pro</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">$499</h1>
+                <ul class=" text-start mt-5 mb-5">
+                  <p class="fs-5 text-body-secondary">Build an effective and appealing website for your clients</p>
+                  <li>3 Pages website</li>
+                  <li>Domain wegistration</li>
+                  <li>Server hosting</li>
+                  <li>Branding specialist</li>
+                  <li>Meet your developers</li>
+                  <li>Priority email support</li>
+                  <li>Help center access</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-primary mb-4">Get started</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card mb-4 rounded-0 shadow-sm border-info pricing-col">
+              <div class="card-header py-3 text-bg-info border-info pricing-card">
+                <h4 class="my-0 fw-normal">Premium</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">$1500+</h1>
+                <ul class=" text-start mt-5 mb-5">
+                  <p class="fs-5 text-body-secondary">Maximize the infinite web potential and create your own vision</p>
+                  <li>Full potential website</li>
+                  <li>Domain registration</li>
+                  <li>Server hosting</li>
+                  <li>Branding specialist</li>
+                  <li>Dedicated team</li>
+                  <li>Phone & email support</li>
+                  <li>Help center access</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-primary mb-4">Contact us</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Pricing Tables END -->
+
+        <!-- Compare plans START -->
+        <h2 class="display-6 text-center mb-4">Compare plans</h2>
+    
+        <div class="table-responsive">
+          <table class="table text-center">
+            <thead>
+              <tr>
+                <th style="width: 34%;"></th>
+                <th style="width: 22%;">Free</th>
+                <th style="width: 22%;">Pro</th>
+                <th style="width: 22%;">Premium</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row" class="text-start">Design consultation</th>
+                <td><img src="./assets/images/tick - blue.png" class="bi" width="24" height="24"></img></td>
+                <td><img src="./assets/images/tick - blue.png" class="bi" width="24" height="24"></img></td>
+                <td><img src="./assets/images/tick - blue.png" class="bi" width="24" height="24"></img></td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-start">Add extra security</th>
+                <td></td>
+                <td><img src="./assets/images/tick - blue.png" class="bi" width="24" height="24"></img></td>
+                <td><img src="./assets/images/tick - blue.png" class="bi" width="24" height="24"></img></td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-start">Technical support</th>
+                <td><img src="./assets/images/tick - blue.png" class="bi" width="24" height="24"></img></td>
+                <td><img src="./assets/images/tick - blue.png" class="bi" width="24" height="24"></img></td>
+                <td><img src="./assets/images/tick - blue.png" class="bi" width="24" height="24"></img></td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-start">Up to 3 free revisions</th>
+                <td></td>
+                <td><img src="./assets/images/tick - blue.png" class="bi" width="24" height="24"></img></td>
+                <td><img src="./assets/images/tick - blue.png" class="bi" width="24" height="24"></img></td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-start">Marketing consultation</th>
+                <td></td>
+                <td><img src="./assets/images/tick - blue.png" class="bi" width="24" height="24"></img></td>
+                <td><img src="./assets/images/tick - blue.png" class="bi" width="24" height="24"></img></td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-start">SEO optimization</th>
+                <td></td>
+                <td><img src="./assets/images/tick - blue.png" class="bi" width="24" height="24"></img></td>
+                <td><img src="./assets/images/tick - blue.png" class="bi" width="24" height="24"></img></td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-start">Analitycs integration</th>
+                <td></td>
+                <td></td>
+                <td><img src="./assets/images/tick - blue.png" class="bi" width="24" height="24"></img></td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-start">API integration</th>
+                <td></td>
+                <td></td>
+                <td><img src="./assets/images/tick - blue.png" class="bi" width="24" height="24"></img></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- Compare plans END -->
+      </div>
+      <!-- sign-up-container (Rates) END -->
+
+      <!-- footer START -->
+      <footer class="pt-4 my-md-5 pt-md-5 border-top">
+        <div class="row">
+          <div class="col-12 col-md">
+            <img class="mb-2" src="./assets/images/AAAZEMCORE-blue.png" alt="" width="200" height="auto">
+            <small class="d-block mb-3 text-body-secondary">2015–2023 © All rights reserved</small>
+          </div>
+
+          <div class="col-6 col-md">
+            <h5>Features</h5>
+            <ul class="list-unstyled text-small">
+              <li class="mb-1"><a class="link-light text-decoration-none" href="#">Develop Websites</a></li>
+              <li class="mb-1"><a class="link-light text-decoration-none" href="#">Software Projects</a></li>
+              <li class="mb-1"><a class="link-light text-decoration-none" href="#">Design Elements</a></li>
+              <li class="mb-1"><a class="link-light text-decoration-none" href="#">Smartphone Apps</a></li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md">
+            <h5>Resources</h5>
+            <ul class="list-unstyled text-small">
+              <li class="mb-1"><a class="link-light text-decoration-none" href="#">News & Announcements</a></li>
+              <li class="mb-1"><a class="link-light text-decoration-none" href="#">Current Projects</a></li>
+              <li class="mb-1"><a class="link-light text-decoration-none" href="#">We are Hiring</a></li>
+              <li class="mb-1"><a class="link-light text-decoration-none" href="#">For Developers</a></li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md">
+            <h5>Info</h5>
+            <ul class="list-unstyled text-small">
+              <li class="mb-1"><a class="link-light text-decoration-none" href="#">GDPR & CCPA</a></li>
+              <li class="mb-1"><a class="link-light text-decoration-none" href="#">Office Locations</a></li>
+              <li class="mb-1"><a class="link-light text-decoration-none" href="#">Privacy Policy</a></li>
+              <li class="mb-1"><a class="link-light text-decoration-none" href="#">Terms & Conditions</a></li>
+            </ul>
+          </div>
+          
+          <div class="col-6 col-md">
+            <h5>About</h5>
+            <ul class="list-unstyled text-small">
+              <li class="mb-1"><a class="link-light text-decoration-none" href="#">Main team</a></li>
+              <li class="mb-1"><a class="link-light text-decoration-none" href="#">Company History</a></li>
+              <li class="mb-1"><a class="link-light text-decoration-none" href="#">Our Clients</a></li>
+              <li class="mb-1"><a class="link-light text-decoration-none" href="#">Project Reviews</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </footer>
+      <!-- footer END -->
+
+    </div>
+    <!-- container py-3 END -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,163 @@
+html {
+  filter: brightness(110%);
+}
+
+body {
+    background-color: #000000;
+    background: url(./assets/images/background-img\ -\ Copy\ -\ Copy.jpg) no-repeat center center fixed;
+    /* background: url(./assets/images/background-img.jpg) no-repeat center center fixed; */
+    background-size: cover;
+  }
+
+.btn {
+  background-color: #CD3668;
+  border-color: #CD3668;
+  color: #000000;
+}
+
+.btn:hover {
+  background-color: #0DCAF0;
+  border-color: #0DCAF0;
+  color: #000000;
+}
+
+
+
+/* ===== navbar START */
+.navbar .btn[type="submit"] {
+  color: #000000;
+}
+
+.navbar .btn[type="submit"]:hover {
+  color: #000000;
+}
+
+.form-control {
+  width: 333px;
+}
+/* ===== navbar END */
+
+
+
+/* ===== myCarousel START */
+#myCarousel img {
+  width: 100%;
+  height: 70vh;
+  object-fit: cover;
+  /* filter: brightness(85%); */
+}
+
+@media (max-width: 700px) {
+  #myCarousel .carousel-caption {
+    height: 240px;
+  }
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(./assets/fonts/Azemcore-Valorant-Font.ttf);
+}
+
+span.main-heading-title {
+  color: #0DCAF0;
+  /* color: #303030; */
+  font-family: myFirstFont;
+  text-shadow: 2px 0 5px rgba(255, 255, 255, 0.37);
+  font-size: 3rem;
+}
+
+.heading-short-description {
+  color: #ffffff;
+  text-shadow: 2px 0 2px rgb(0, 0, 0);
+}
+
+h1.heading-short-description {
+  text-shadow: 2px 0 2px rgb(0, 0, 0);
+  color: #ffffff;
+}
+/* ===== myCarousel END */
+
+
+
+/* ===== About Us Part 1 START */
+.feature-icon-small {
+width: 3rem;
+height: 3rem;
+}
+
+.feature-icon-small > .dark {
+  filter: invert(100%);
+}
+/* ===== About Us Part 1 END */
+
+
+
+/* ===== About US Part 2 START */
+img.featurette-image {
+    filter: drop-shadow(16px 16px 20px rgb(0, 0, 0));
+    filter: brightness(80%);
+}
+
+img.featurette-image:hover {
+    filter: drop-shadow(16px 16px 20px rgb(0, 0, 0));
+    filter: brightness(1);
+    transition: 0.3s ease-in;
+}
+
+span.beBold {
+  font-weight: bold;
+}
+/* ===== About US Part 2 END */
+
+
+
+/* ===== sign-up-container (Rates) START */
+.sign-up-container .btn-outline-warning {
+  color: #000000;
+  text-decoration: underline;
+}
+
+.sign-up-container .btn-outline-warning:hover {
+  background-color:black;
+  border-color: black;
+  color: #ffffff;
+}
+
+.sign-up-container ul {
+  list-style: circle;
+}
+
+.card-header {
+  border-radius: 0 !important;
+}
+
+.sign-up-container .card {
+  background-color: transparent;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2) 70%, rgba(255, 255, 255, 0.4));
+}
+
+.card-body {
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.2) 70%, rgba(255, 255, 255, 0.2));
+  
+}
+
+.pricing-card {
+  background-color: black;
+}
+/* ===== sign-up-container (Rates) END */
+
+
+
+/* ===== footer START */
+footer h5 {
+  color: rgb(199, 199, 199);
+}
+
+footer li {
+    background-color: #0000003b;
+}
+
+footer li:hover {
+  background-color: #ffffff3b;
+}
+/* ===== footer END */
